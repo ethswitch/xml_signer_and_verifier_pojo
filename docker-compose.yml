@@ -1,0 +1,20 @@
+version: '3'
+services:
+  app:
+    container_name: xmlsigner
+#    build: .
+    volumes:
+      -  /opt/certs/keys/private_keys/:/tmp
+    image: ethswitch/xmlsigneramh:v1.0.0
+    ports:
+      - 7000:9181
+    links:
+      - redis
+
+  redis:
+    container_name: redis
+    image: redis
+    build: ./redis
+    hostname: redis
+    ports:
+      - "6379:6379"

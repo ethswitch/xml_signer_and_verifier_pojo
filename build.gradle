@@ -1,0 +1,69 @@
+plugins {
+	id 'java'
+
+}
+
+group = 'org.ips.xml.signer.xmlsigner'
+version = '0.0.1'
+
+java {
+	sourceCompatibility = JavaVersion.VERSION_17
+	targetCompatibility = JavaVersion.VERSION_17
+}
+
+repositories {
+	mavenCentral()  // Make sure mavenCentral is listed here
+}
+
+dependencies {
+	// HTTP Client
+	implementation 'org.apache.httpcomponents.client5:httpclient5:5.1'
+
+	// Logging
+	implementation 'org.apache.logging.log4j:log4j-core:2.20.0'
+	implementation 'ch.qos.logback:logback-core:1.4.5'
+
+	// XML Security (Apache Santuario)
+	implementation group: 'org.apache.santuario', name: 'xmlsec', version: '2.2.6'
+
+	// XML Processing (Saxon-HE)
+	implementation group: 'net.sf.saxon', name: 'Saxon-HE', version: '11.5'
+
+	// Regex-based String Generation
+	implementation 'com.github.mifmif:generex:1.0.2'
+
+	// JSON Web Token (JWT) Handling
+	implementation group: 'io.jsonwebtoken', name: 'jjwt-api', version: '0.12.3'
+	runtimeOnly group: 'io.jsonwebtoken', name: 'jjwt-impl', version: '0.12.3'
+	runtimeOnly group: 'io.jsonwebtoken', name: 'jjwt-jackson', version: '0.12.3'
+
+	// JWT with Auth0
+	implementation group: 'com.auth0', name: 'java-jwt', version: '4.4.0'
+
+	// SLF4J (Simple Logging Facade for Java)
+	testImplementation 'org.slf4j:slf4j-api:2.0.6'
+
+	// XAdES (XML Advanced Electronic Signatures)
+	implementation 'com.googlecode.xades4j:xades4j:2.0.0'
+
+	// Apache Commons Lang
+	implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.13.0'
+
+	// Lombok for reducing boilerplate code
+	compileOnly 'org.projectlombok:lombok:1.18.28'  // Specify the correct version
+	annotationProcessor 'org.projectlombok:lombok:1.18.28'  // Specify the correct version
+
+	// Jackson for JSON processing
+	implementation 'com.fasterxml.jackson.core:jackson-databind:2.13.5'
+
+	// JUnit for testing
+	testImplementation 'org.junit.jupiter:junit-jupiter-api:5.10.0'
+	testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
+
+	// In-memory H2 database (for testing or persistence if needed)
+	runtimeOnly 'com.h2database:h2'
+}
+
+test {
+	useJUnitPlatform()
+}

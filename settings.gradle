@@ -1,0 +1,7 @@
+pluginManagement {
+	repositories {
+
+		gradlePluginPortal()
+	}
+}
+rootProject.name = 'xml_signer_and_verifier_pojo'

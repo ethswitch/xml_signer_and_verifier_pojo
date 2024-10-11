@@ -1,0 +1,167 @@
+2024-10-09 17:02:20,986 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2024-10-09 17:02:21,041 INFO o.i.x.s.x.XmlSignerApplication [restartedMain] Starting XmlSignerApplication using Java 17.0.10 with PID 16968 (C:\etswitch\instant_payment_system\ips_codes\xml_singer_and_verifier\build\classes\java\main started by teklu in C:\etswitch\instant_payment_system\ips_codes\xml_singer_and_verifier)
+2024-10-09 17:02:21,041 INFO o.i.x.s.x.XmlSignerApplication [restartedMain] The following 1 profile is active: "dev"
+2024-10-09 17:02:21,121 INFO o.s.b.d.r.ChangeableUrls [restartedMain] The Class-Path manifest attribute in C:\etswitch\instant_payment_system\xmlsigner\.gradle\caches\modules-2\files-2.1\org.glassfish.hk2\hk2\3.0.3\bea52296bcc6bf99f658746070ad63aefd338c1a\hk2-3.0.3.jar referenced one or more files that do not exist: file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/hk2-utils.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/jakarta.annotation-api.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/jakarta.inject-api.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/hk2-api.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/aopalliance-repackaged.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/hk2-core.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/hk2-locator.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/javassist.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/hk2-runlevel.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/class-model.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/asm.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/asm-analysis.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/asm-commons.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/asm-tree.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/asm-util.jar
+2024-10-09 17:02:21,121 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-09 17:02:21,121 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-09 17:02:21,894 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-09 17:02:21,894 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-09 17:02:21,911 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2024-10-09 17:02:22,138 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-09 17:02:22,138 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-09 17:02:22,168 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2024-10-09 17:02:25,262 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9181 (http)
+2024-10-09 17:02:25,285 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-9181"]
+2024-10-09 17:02:25,287 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2024-10-09 17:02:25,287 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-09 17:02:25,394 INFO o.a.c.c.C.[.[.[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-10-09 17:02:25,394 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4273 ms
+2024-10-09 17:02:25,511 DEBUG o.s.w.f.CorsFilter [restartedMain] Filter 'corsFilter' configured for use
+2024-10-09 17:02:25,811 WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2024-10-09 17:02:25,951 INFO o.a.c.c.StandardService [restartedMain] Stopping service [Tomcat]
+2024-10-09 17:02:26,011 INFO o.s.b.a.l.ConditionEvaluationReportLogger [restartedMain] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-09 17:02:26,049 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles dev are currently active).
+
+2024-10-09 17:04:22,799 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2024-10-09 17:04:22,865 INFO o.i.x.s.x.XmlSignerApplication [restartedMain] Starting XmlSignerApplication using Java 17.0.10 with PID 11360 (C:\etswitch\instant_payment_system\ips_codes\xml_singer_and_verifier\build\classes\java\main started by teklu in C:\etswitch\instant_payment_system\ips_codes\xml_singer_and_verifier)
+2024-10-09 17:04:22,867 INFO o.i.x.s.x.XmlSignerApplication [restartedMain] The following 1 profile is active: "dev"
+2024-10-09 17:04:22,957 INFO o.s.b.d.r.ChangeableUrls [restartedMain] The Class-Path manifest attribute in C:\etswitch\instant_payment_system\xmlsigner\.gradle\caches\modules-2\files-2.1\org.glassfish.hk2\hk2\3.0.3\bea52296bcc6bf99f658746070ad63aefd338c1a\hk2-3.0.3.jar referenced one or more files that do not exist: file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/hk2-utils.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/jakarta.annotation-api.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/jakarta.inject-api.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/hk2-api.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/aopalliance-repackaged.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/hk2-core.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/hk2-locator.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/javassist.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/hk2-runlevel.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/class-model.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/asm.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/asm-analysis.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/asm-commons.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/asm-tree.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/asm-util.jar
+2024-10-09 17:04:22,957 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-09 17:04:22,957 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-09 17:04:24,071 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-09 17:04:24,071 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-09 17:04:24,095 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2024-10-09 17:04:24,372 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-09 17:04:24,376 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-09 17:04:24,410 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 20 ms. Found 0 Redis repository interfaces.
+2024-10-09 17:04:25,611 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9181 (http)
+2024-10-09 17:04:25,630 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-9181"]
+2024-10-09 17:04:25,632 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2024-10-09 17:04:25,632 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-09 17:04:25,731 INFO o.a.c.c.C.[.[.[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-10-09 17:04:25,731 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 2774 ms
+2024-10-09 17:04:25,835 DEBUG o.s.w.f.CorsFilter [restartedMain] Filter 'corsFilter' configured for use
+2024-10-09 17:04:26,174 WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2024-10-09 17:04:26,302 INFO o.a.c.c.StandardService [restartedMain] Stopping service [Tomcat]
+2024-10-09 17:04:26,321 INFO o.s.b.a.l.ConditionEvaluationReportLogger [restartedMain] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-09 17:04:26,356 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles dev are currently active).
+
+2024-10-09 17:06:47,830 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2024-10-09 17:06:47,924 INFO o.i.x.s.x.XmlSignerApplication [restartedMain] Starting XmlSignerApplication using Java 17.0.10 with PID 19344 (C:\etswitch\instant_payment_system\ips_codes\xml_singer_and_verifier\build\classes\java\main started by teklu in C:\etswitch\instant_payment_system\ips_codes\xml_singer_and_verifier)
+2024-10-09 17:06:47,925 INFO o.i.x.s.x.XmlSignerApplication [restartedMain] The following 1 profile is active: "dev"
+2024-10-09 17:06:48,025 INFO o.s.b.d.r.ChangeableUrls [restartedMain] The Class-Path manifest attribute in C:\etswitch\instant_payment_system\xmlsigner\.gradle\caches\modules-2\files-2.1\org.glassfish.hk2\hk2\3.0.3\bea52296bcc6bf99f658746070ad63aefd338c1a\hk2-3.0.3.jar referenced one or more files that do not exist: file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/hk2-utils.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/jakarta.annotation-api.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/jakarta.inject-api.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/hk2-api.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/aopalliance-repackaged.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/hk2-core.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/hk2-locator.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/javassist.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/hk2-runlevel.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/class-model.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/asm.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/asm-analysis.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/asm-commons.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/asm-tree.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/asm-util.jar
+2024-10-09 17:06:48,028 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-09 17:06:48,028 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-09 17:06:49,161 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-09 17:06:49,161 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-09 17:06:49,181 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2024-10-09 17:06:49,466 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-09 17:06:49,466 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-09 17:06:49,513 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+2024-10-09 17:06:51,120 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9181 (http)
+2024-10-09 17:06:51,135 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-9181"]
+2024-10-09 17:06:51,136 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2024-10-09 17:06:51,136 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-09 17:06:51,236 INFO o.a.c.c.C.[.[.[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-10-09 17:06:51,236 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 3208 ms
+2024-10-09 17:06:51,341 DEBUG o.s.w.f.CorsFilter [restartedMain] Filter 'corsFilter' configured for use
+2024-10-09 17:06:51,732 WARN o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [restartedMain] Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'dataSourceScriptDatabaseInitializer' defined in class path resource [org/springframework/boot/autoconfigure/sql/init/DataSourceInitializationConfiguration.class]: Unsatisfied dependency expressed through method 'dataSourceScriptDatabaseInitializer' parameter 0: Error creating bean with name 'dataSource' defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class]: Failed to instantiate [com.zaxxer.hikari.HikariDataSource]: Factory method 'dataSource' threw exception with message: Failed to determine a suitable driver class
+2024-10-09 17:06:51,872 INFO o.a.c.c.StandardService [restartedMain] Stopping service [Tomcat]
+2024-10-09 17:06:51,897 INFO o.s.b.a.l.ConditionEvaluationReportLogger [restartedMain] 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-09 17:06:51,931 ERROR o.s.b.d.LoggingFailureAnalysisReporter [restartedMain] 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to configure a DataSource: 'url' attribute is not specified and no embedded datasource could be configured.
+
+Reason: Failed to determine a suitable driver class
+
+
+Action:
+
+Consider the following:
+	If you want an embedded database (H2, HSQL or Derby), please put it on the classpath.
+	If you have database settings to be loaded from a particular profile you may need to activate it (the profiles dev are currently active).
+
+2024-10-09 17:21:22,604 INFO o.h.v.i.u.Version [background-preinit] HV000001: Hibernate Validator 8.0.0.Final
+2024-10-09 17:21:22,698 INFO o.i.x.s.x.XmlSignerApplication [restartedMain] Starting XmlSignerApplication using Java 17.0.10 with PID 7632 (C:\etswitch\instant_payment_system\ips_codes\xml_singer_and_verifier\build\classes\java\main started by teklu in C:\etswitch\instant_payment_system\ips_codes\xml_singer_and_verifier)
+2024-10-09 17:21:22,698 INFO o.i.x.s.x.XmlSignerApplication [restartedMain] The following 1 profile is active: "dev"
+2024-10-09 17:21:23,228 INFO o.s.b.d.r.ChangeableUrls [restartedMain] The Class-Path manifest attribute in C:\etswitch\instant_payment_system\xmlsigner\.gradle\caches\modules-2\files-2.1\org.glassfish.hk2\hk2\3.0.3\bea52296bcc6bf99f658746070ad63aefd338c1a\hk2-3.0.3.jar referenced one or more files that do not exist: file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/hk2-utils.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/jakarta.annotation-api.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/jakarta.inject-api.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/hk2-api.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/aopalliance-repackaged.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/hk2-core.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/hk2-locator.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/javassist.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/hk2-runlevel.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/class-model.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/asm.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/asm-analysis.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/asm-commons.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/asm-tree.jar,file:/C:/etswitch/instant_payment_system/xmlsigner/.gradle/caches/modules-2/files-2.1/org.glassfish.hk2/hk2/3.0.3/bea52296bcc6bf99f658746070ad63aefd338c1a/asm-util.jar
+2024-10-09 17:21:23,229 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-09 17:21:23,229 INFO o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-09 17:21:27,251 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-09 17:21:27,251 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-09 17:21:27,268 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 7 ms. Found 0 JPA repository interfaces.
+2024-10-09 17:21:27,548 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Multiple Spring Data modules found, entering strict repository configuration mode
+2024-10-09 17:21:27,548 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-10-09 17:21:27,592 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 25 ms. Found 0 Redis repository interfaces.
+2024-10-09 17:21:28,972 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port(s): 9181 (http)
+2024-10-09 17:21:28,989 INFO o.a.c.h.Http11NioProtocol [restartedMain] Initializing ProtocolHandler ["http-nio-9181"]
+2024-10-09 17:21:28,989 INFO o.a.c.c.StandardService [restartedMain] Starting service [Tomcat]
+2024-10-09 17:21:28,989 INFO o.a.c.c.StandardEngine [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-09 17:21:29,098 INFO o.a.c.c.C.[.[.[/] [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-10-09 17:21:29,099 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 5869 ms
+2024-10-09 17:21:29,153 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2024-10-09 17:21:29,511 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:0d1e69ea-9440-4513-a9ac-af071b757b61 user=SA
+2024-10-09 17:21:29,511 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2024-10-09 17:21:29,528 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:0d1e69ea-9440-4513-a9ac-af071b757b61'
+2024-10-09 17:21:29,615 DEBUG o.s.w.f.CorsFilter [restartedMain] Filter 'corsFilter' configured for use
+2024-10-09 17:21:30,098 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-09 17:21:30,204 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.1.5.Final
+2024-10-09 17:21:30,498 WARN o.h.o.deprecation [restartedMain] HHH90000021: Encountered deprecated setting [javax.persistence.sharedCache.mode], use [jakarta.persistence.sharedCache.mode] instead
+2024-10-09 17:21:30,724 INFO SQL dialect [restartedMain] HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2024-10-09 17:21:31,138 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2024-10-09 17:21:31,158 INFO o.s.o.j.LocalContainerEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-09 17:21:35,013 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-09 17:21:35,941 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter [restartedMain] ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-10-09 17:21:36,073 DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping [restartedMain] 7 mappings in 'requestMappingHandlerMapping'
+2024-10-09 17:21:36,108 DEBUG o.s.w.s.h.SimpleUrlHandlerMapping [restartedMain] Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-10-09 17:21:36,121 DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver [restartedMain] ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-10-09 17:21:36,347 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-10-09 17:21:36,383 INFO o.a.c.h.Http11NioProtocol [restartedMain] Starting ProtocolHandler ["http-nio-9181"]
+2024-10-09 17:21:36,451 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port(s): 9181 (http) with context path ''
+2024-10-09 17:21:36,476 INFO o.i.x.s.x.XmlSignerApplication [restartedMain] Started XmlSignerApplication in 15.597 seconds (process running for 17.525)
