@@ -66,13 +66,11 @@ public class XmlSignUtil {
     private CerteficateAndKeysUtility certeficateAndKeysUtility;
 
 
-    public XmlSignUtil(CerteficateAndKeysUtility certeficateAndKeysUtility) {
-        this.certeficateAndKeysUtility = certeficateAndKeysUtility;
-    }
-
     public XmlSignUtil() {
-
+        this.certeficateAndKeysUtility = new CerteficateAndKeysUtility();
     }
+
+
 
     static {
         org.apache.xml.security.Init.init();

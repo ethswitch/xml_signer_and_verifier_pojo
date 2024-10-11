@@ -6,6 +6,7 @@ import org.ips.xml.signer.xmlsigner.models.TokenInfo;
 import org.ips.xml.signer.xmlsigner.repository.CacheRepository;
 
 import org.ips.xml.signer.xmlsigner.service.apiClient.CerteficatClientService;
+import org.ips.xml.signer.xmlsigner.utils.Constants;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -25,7 +26,7 @@ public class CertificateManager {
 
     private TokenGenerationManager tokenGenerationManager;
     private CerteficatClientService certeficatClientService;
-    private String certeficateDownloadUrl;
+    private String certeficateDownloadUrl= Constants.ETS_IPS_CERITIFICATE_URL;
 
     public CertificateManager() {
 

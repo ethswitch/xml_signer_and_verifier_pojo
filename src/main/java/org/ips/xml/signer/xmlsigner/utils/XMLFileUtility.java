@@ -29,15 +29,15 @@ import java.util.UUID;
 
 
 @Log4j2
-@NoArgsConstructor
+
 public class XMLFileUtility {
     private static final Logger logger = LoggerFactory.getLogger(XMLFileUtility.class);
 
     private CerteficateAndKeysUtility usageUtil;
 
 
-    public XMLFileUtility(CerteficateAndKeysUtility usageUtil) {
-        this.usageUtil = usageUtil;
+    public XMLFileUtility() {
+        this.usageUtil =  new CerteficateAndKeysUtility();
     }
 
     public Document loadDocument(InputStream inputStream) {

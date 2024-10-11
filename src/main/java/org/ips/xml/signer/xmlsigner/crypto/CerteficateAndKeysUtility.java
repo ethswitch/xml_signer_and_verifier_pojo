@@ -8,6 +8,7 @@ import org.ips.xml.signer.xmlsigner.models.CerteficateInformation;
 import org.ips.xml.signer.xmlsigner.models.TokenInfo;
 import org.ips.xml.signer.xmlsigner.service.CertificateManager;
 import org.ips.xml.signer.xmlsigner.service.apiClient.CerteficatClientService;
+import org.ips.xml.signer.xmlsigner.utils.Constants;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -48,9 +49,9 @@ public class CerteficateAndKeysUtility {
     private String participantAlias;
     private KeyStore keyStore;
 
-    private String privateKeyPath;
+    private String privateKeyPath=Constants.PRIVATE_KEY_PATH;
 
-    private String certificateKeyPath;
+    private String certificateKeyPath= Constants.CERTEFICATE_PATH;
 
 
 

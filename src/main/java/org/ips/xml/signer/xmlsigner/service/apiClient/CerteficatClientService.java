@@ -1,6 +1,7 @@
 package org.ips.xml.signer.xmlsigner.service.apiClient;
 
 import org.ips.xml.signer.xmlsigner.models.CerteficateInformation;
+import org.ips.xml.signer.xmlsigner.models.CertificateResponse;
 
 import java.net.URI;
 import java.net.http.HttpClient;
@@ -32,7 +33,11 @@ public class CerteficatClientService {
 
         String url = certeficateInformation.getCerteficateDownloadUrl() +
                 "?cert_iss=" + certeficateInformation.getCertificateIssuer() +
-                "&&cert_sn=" + certeficateInformation.getCertificateSerialNumber();
+                "&cert_sn=" + certeficateInformation.getCertificateSerialNumber();
+        url=url.replaceAll(" ","%20")
+                .replaceAll(",","%2C")
+//                .replaceAll("=","%3D")
+        ;
 
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(url))
@@ -45,7 +50,8 @@ public class CerteficatClientService {
 
         // Assuming the response body contains the certificate in a way you can parse and update the model
         if (response.statusCode() == 200) {
-            certeficateInformation.setCertificate(response.body());
+            CertificateResponse certificateResponse= CertificateResponse.convert(response.body());
+            certeficateInformation.setCertificate(certificateResponse.getCertificate());
         } else {
             System.out.println("Failed to download certificate: " + response.statusCode());
         }

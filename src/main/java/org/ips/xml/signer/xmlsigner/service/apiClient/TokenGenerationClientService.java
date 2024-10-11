@@ -33,7 +33,7 @@ public class TokenGenerationClientService {
 
     public TokenInfo generateToken(ParticipantCredentialInfo credentialInfo) {
         create(credentialInfo.getTokenGenerationPath());
-
+TokenInfo tokenInfo= null;
         // Prepare request body in application/x-www-form-urlencoded format
         Map<String, String> parameters = Map.of(
                 "username", credentialInfo.getUserName(),
@@ -55,7 +55,8 @@ public class TokenGenerationClientService {
             HttpResponse<String> response = httpClient.send(request, HttpResponse.BodyHandlers.ofString());
             if (response.statusCode() == 200) {
                 // Parse the response body (assuming TokenInfo is in JSON format)
-                return parseTokenInfo(response.body());
+                tokenInfo= TokenInfo.convert(response.body());
+                return tokenInfo;
             } else {
                 logger.error("Failed to generate token, Status code: " + response.statusCode());
                 return null;
@@ -78,6 +79,6 @@ public class TokenGenerationClientService {
     private TokenInfo parseTokenInfo(String responseBody) {
         // Assuming TokenInfo has a simple constructor that takes the response
         // In practice, use a JSON library like Jackson to parse the response.
-        return new TokenInfo(responseBody);
+        return  TokenInfo.convert(responseBody);
     }
 }

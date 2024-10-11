@@ -61,7 +61,7 @@ dependencies {
 	testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.10.0'
 
 	// In-memory H2 database (for testing or persistence if needed)
-	runtimeOnly 'com.h2database:h2'
+//	runtimeOnly 'com.h2database:h2'
 }
 
 test {

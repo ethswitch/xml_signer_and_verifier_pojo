@@ -21,7 +21,6 @@ import java.io.StringReader;
 import java.io.StringWriter;
 
 @Log4j2
-@NoArgsConstructor
 public class DigestServiceImpl implements DigestService {
     public static String xadesNS = "http://uri.etsi.org/01903/v1.3.2#";
     public static String signatureID = "Sig1";
@@ -64,15 +63,18 @@ public class DigestServiceImpl implements DigestService {
     }
 
     private String convertDocumentToString(Document doc) {
+        String convertedString=null;
         try {
+
             TransformerFactory transformerFactory = TransformerFactory.newInstance();
             Transformer transformer = transformerFactory.newTransformer();
             StringWriter writer = new StringWriter();
             transformer.transform(new DOMSource(doc), new StreamResult(writer));
-            return writer.getBuffer().toString();
+            convertedString= writer.getBuffer().toString();
+            return convertedString;
         } catch (Exception e) {
             log.error(e.getMessage());
-            return null;
+            return convertedString;
         }
     }
 
