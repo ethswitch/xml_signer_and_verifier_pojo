@@ -63,7 +63,19 @@ dependencies {
 	// In-memory H2 database (for testing or persistence if needed)
 //	runtimeOnly 'com.h2database:h2'
 }
+jar {
+	// Define the JAR file name (optional)
+	archiveBaseName.set('xml_signer_and_verifier_pojo')
+	archiveVersion.set('1.0.0')
+	archiveClassifier.set('') // Leave blank for the default JAR
 
+	// Main class if you want to create an executable JAR
+	manifest {
+		attributes(
+				'Main-Class': 'org/ips/xml/signer/xmlsigner/XmlSignerApplication' // Main class to run if you create an executable JAR
+		)
+	}
+}
 test {
 	useJUnitPlatform()
 }
