@@ -21,10 +21,10 @@ public class Constants {
     public static  String ETS_IPS_CERITIFICATE_URL=ETS_CERT_IPS_URL+"/v1/cert";
     
     static {
-        intialize();
+        initialize();
     }
 
-    private static void intialize() {
+    private static void initialize() {
         PARTICIPANT_BIC= AppConfigCache.getProperty("ips.participant.bic");
 
 
@@ -34,7 +34,7 @@ public class Constants {
 
         USER_NAME= AppConfigCache.getProperty("ets.ips.userName");
         PASSWORD = AppConfigCache.getProperty("ets.ips.password");
-        GRANT_TYPE= AppConfigCache.getProperty("ets.ips.grantType");    
+        GRANT_TYPE= AppConfigCache.getProperty("ets.ips.grantType");
 
         ETS_IPS_TOKEN_URL= AppConfigCache.getProperty("ets.ips.token.url");
         ETS_IPS_CERITIFICATE_URL= AppConfigCache.getProperty("ets.ips.certificate.download.url");

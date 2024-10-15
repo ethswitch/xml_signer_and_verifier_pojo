@@ -1,9 +1,7 @@
 package org.ips.xml.signer.xmlsigner.service;
 
-import org.ips.xml.signer.xmlsigner.crypto.CerteficateAndKeysUtility;
 import org.ips.xml.signer.xmlsigner.models.CerteficateInformation;
 import org.ips.xml.signer.xmlsigner.models.TokenInfo;
-import org.ips.xml.signer.xmlsigner.repository.CacheRepository;
 
 import org.ips.xml.signer.xmlsigner.service.apiClient.CerteficatClientService;
 import org.ips.xml.signer.xmlsigner.utils.Constants;
@@ -17,20 +15,18 @@ import java.security.cert.CertificateFactory;
 import java.security.cert.X509Certificate;
 import java.security.interfaces.RSAPublicKey;
 import java.util.Base64;
-import java.util.Collections;
-import java.util.Optional;
 
 
-public class CertificateManager {
+public class CertificateManager implements CertificateManagerInt {
     private static final Logger logger = LoggerFactory.getLogger(CertificateManager.class);
 
-    private TokenGenerationManager tokenGenerationManager;
+    private TokenGenerationManagerInt tokenGenerationManagerInt;
     private CerteficatClientService certeficatClientService;
     private String certeficateDownloadUrl= Constants.ETS_IPS_CERITIFICATE_URL;
 
     public CertificateManager() {
 
-        this.tokenGenerationManager = new TokenGenerationManager();
+        this.tokenGenerationManagerInt = new TokenGenerationManager();
         this.certeficatClientService = new CerteficatClientService(certeficateDownloadUrl);
     }
 
@@ -41,6 +37,7 @@ public class CertificateManager {
     }
 
 
+    @Override
     public CerteficateInformation getCertificate(CerteficateInformation certeficateInformation) {
 
         CerteficateInformation cachedCeretficate =null;
@@ -48,7 +45,7 @@ public class CertificateManager {
 
             logger.info("calling the certeficate api");
             try {
-                tokenInfo = tokenGenerationManager.getToken();
+                tokenInfo = tokenGenerationManagerInt.getToken();
                 certeficateInformation.setValidToken(tokenInfo.getAccess_token());
                 certeficateInformation.setCerteficateDownloadUrl(this.certeficateDownloadUrl);
                 CerteficateInformation cert = this.certeficatClientService.downloadCerteficate(certeficateInformation);
@@ -64,6 +61,7 @@ public class CertificateManager {
         return certeficateInformation;
 
     }
+    @Override
     public RSAPublicKey getPublicKeyForMessageOrginator(CerteficateInformation certeficateInformation) {
         RSAPublicKey publicKey = null;
         CerteficateInformation certeficate = null;

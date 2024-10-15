@@ -10,13 +10,13 @@ public class MessageDigestVerificationController {
     private XMLDigestVerifier digestVerifier;
 
     public MessageDigestVerificationController() {
-        this.digestVerifier = new XMLDigestVerifierImpl();
+
     }
 
 
-    public String verifyXml( String request) {
-
-        String xmlResponse = digestVerifier.verify(request);
+    public String verifyXml(String request) {
+        this.digestVerifier = new XMLDigestVerifierImpl(request);
+        String xmlResponse = digestVerifier.verify();
         xmlResponse = xmlResponse.replace("&#xD;", "");
         return xmlResponse;
     }

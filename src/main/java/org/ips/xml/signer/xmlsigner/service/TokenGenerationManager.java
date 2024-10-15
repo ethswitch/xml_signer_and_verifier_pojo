@@ -7,7 +7,7 @@ import org.ips.xml.signer.xmlsigner.service.apiClient.TokenGenerationClientServi
 import org.ips.xml.signer.xmlsigner.utils.Constants;
 
 
-public class TokenGenerationManager {
+public class TokenGenerationManager implements TokenGenerationManagerInt {
 
 
 
@@ -29,6 +29,7 @@ public class TokenGenerationManager {
         this.jwtManager = new JWTManager();
     }
 
+    @Override
     public TokenInfo getToken() {
         ParticipantCredentialInfo credentialInfo = new ParticipantCredentialInfo();
         TokenInfo tokenInfo = null;

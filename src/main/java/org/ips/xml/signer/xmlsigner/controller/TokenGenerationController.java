@@ -2,17 +2,18 @@ package org.ips.xml.signer.xmlsigner.controller;
 
 import org.ips.xml.signer.xmlsigner.models.TokenInfo;
 import org.ips.xml.signer.xmlsigner.service.TokenGenerationManager;
+import org.ips.xml.signer.xmlsigner.service.TokenGenerationManagerInt;
 
 
 public class TokenGenerationController {
 
 
-    private TokenGenerationManager tokenGenerationManager;
+    private TokenGenerationManagerInt tokenGenerationManagerInt;
 
 
     public TokenGenerationController() {
 
-        this.tokenGenerationManager = new TokenGenerationManager();
+        this.tokenGenerationManagerInt = new TokenGenerationManager();
     }
 
 
@@ -21,7 +22,7 @@ public class TokenGenerationController {
 
         TokenInfo tokenInfo = null;
         try {
-            tokenInfo = tokenGenerationManager.getToken();
+            tokenInfo = tokenGenerationManagerInt.getToken();
 
         } catch (Exception e) {
             throw new RuntimeException(e);
