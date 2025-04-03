@@ -1,28 +1,12 @@
-name: SonarCloud analysis
-
-on:
-  push:
-    branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
-  workflow_dispatch:
-
-permissions:
-  pull-requests: read 
-
-jobs:
-  Analysis:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
+      - name: Build with Gradle
+        run: ./gradlew build
 
       - name: Analyze with SonarCloud
         uses: SonarSource/sonarcloud-github-action@v2.2.0
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         with:
-          args:
+          args: >
             -Dsonar.projectKey=ethswitch_ethswitch
             -Dsonar.organization=ethswitch
+            -Dsonar.java.binaries=build/classes
